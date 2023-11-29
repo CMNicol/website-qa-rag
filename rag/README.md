@@ -17,7 +17,7 @@ Here is a screenshot of a Chatbot app built on this architecture.
 
 ## Installation
 
-Follow the steps listed below to create and run the RAG solution. The [blog_post.md](./blog_post.md) describes this solution in detail.
+Follow the steps listed below to create and run the RAG solution. The [blog_post.md](blog_post.md) describes this solution in detail.
 
 1. Launch the cloud formation template included in this repository using one of the buttons from the table below. The cloud formation template will create an IAM role called `LLMAppsBlogIAMRole` and a SageMaker Notebook called `aws-llm-apps-blog` that we will use for running the code in this repository. This cloud formation template creates the Amazon OpenSearch cluster, LLM endpoints for text generation and embeddings and a Amazon SageMaker Notebook with this repository cloned to run the next steps.
 
